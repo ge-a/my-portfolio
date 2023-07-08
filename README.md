@@ -1,2 +1,2 @@
 # my-portfolio
-# https://www.freecodecamp.org/news/portfolio-app-using-react-618814e35843/
+https://www.freecodecamp.org/news/portfolio-app-using-react-618814e35843/
