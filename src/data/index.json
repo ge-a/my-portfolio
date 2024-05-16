@@ -1,0 +1,28 @@
+{
+    "skills" : [
+        {
+            "id" : 1, 
+            "src" : "../assets/frontend.png",
+            "title" : "Front-End",
+            "description" : "I am a skilled front end developer"
+        },
+        {
+            "id" : 2, 
+            "src" : "../assets/backend.png",
+            "title" : "Back-End",
+            "description" : "I am a skilled back end developer"
+        },
+        {
+            "id" : 3, 
+            "src" : "../assets/machine-learning.png",
+            "title" : "Machine Learning/AI",
+            "description" : "I am a skilled AI developer"
+        },
+        {
+            "id" : 4, 
+            "src" : "../assets/math.png",
+            "title" : "Math",
+            "description" : "I am a skilled mathematician"
+        }
+    ]
+}
