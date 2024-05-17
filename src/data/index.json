@@ -2,27 +2,50 @@
     "skills" : [
         {
             "id" : 1, 
-            "src" : "../assets/frontend.png",
+            "src" : "/assets/frontend.png",
             "title" : "Front-End",
             "description" : "I am a skilled front end developer"
         },
         {
             "id" : 2, 
-            "src" : "../assets/backend.png",
+            "src" : "/assets/backend.png",
             "title" : "Back-End",
             "description" : "I am a skilled back end developer"
         },
         {
             "id" : 3, 
-            "src" : "../assets/machine-learning.png",
-            "title" : "Machine Learning/AI",
+            "src" : "/assets/machine-learning.png",
+            "title" : "ML/AI",
             "description" : "I am a skilled AI developer"
         },
         {
             "id" : 4, 
-            "src" : "../assets/math.png",
+            "src" : "/assets/math.png",
             "title" : "Math",
             "description" : "I am a skilled mathematician"
+        }
+    ],
+    "experience" : [
+        {
+            "id" : 1, 
+            "src" : "/assets/neb.png",
+            "company" : "New England Biolabs",
+            "title" : "Software Engineer Intern",
+            "description" : "I worked at New England Biolabs"
+        },
+        {
+            "id" : 2, 
+            "src" : "/assets/wolterskluwer.png",
+            "company" : "Wolters Kluwer",
+            "title" : "Dev-Ops Engineer Co-op",
+            "description" : "I worked at Wolters Kluwer"
+        },
+        {
+            "id" : 3, 
+            "src" : "/assets/morganstanley.png",
+            "company" : "Morgan Stanley",
+            "title" : "Quantitative Research Co-op",
+            "description" : "I worked at Morgan Stanley"
         }
     ]
 }

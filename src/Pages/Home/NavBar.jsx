@@ -68,7 +68,7 @@ function NavBar() {
                           to={"AboutMe"}
                           className="navbar--content"
                         >
-                            Portfolio
+                            About Me
                         </Link>
                     </li>
                     <li>
@@ -82,7 +82,7 @@ function NavBar() {
                           to={"MyPortfolio"}
                           className="navbar--content"
                         >
-                            MyPortfolio
+                            My Portfolio
                         </Link>
                     </li>
                 </ul>
