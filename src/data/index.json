@@ -47,5 +47,42 @@
             "title" : "Quantitative Research Co-op",
             "description" : "I worked at Morgan Stanley"
         }
+    ],
+    "portfolio" : [
+        {
+            "id" : 1, 
+            "src" : "/assets/checkers.png",
+            "title" : "Covey-Town Checkers Area",
+            "description" : "Covey-Town interactive game checkers playing area",
+            "link" : "View in Github"
+        },
+        {
+            "id" : 2, 
+            "src" : "/assets/domainator.png",
+            "title" : "Domainator",
+            "description" : "Protein domain analysis project",
+            "link" : "View in Github"
+        },
+        {
+            "id" : 3, 
+            "src" : "/assets/carracing.png",
+            "title" : "Reinforcement Learning Car Racing ",
+            "description" : "Exploring reinforcement learning algorithms to train self driving racecars",
+            "link" : "https://github.com/ge-a/cs4100final"
+        },
+        {
+            "id" : 4, 
+            "src" : "/assets/chess.png",
+            "title" : "Chess Engine",
+            "description" : "Chess interface with minmax engine",
+            "link" : "https://github.com/ge-a/ChessEngine"
+        },
+        {
+            "id" : 5, 
+            "src" : "/assets/sportsbet.png",
+            "title" : "NBA Moneyline Prediction Model",
+            "description" : "Predicting winners of NBA games",
+            "link" : "https://github.com/ge-a/NBA-Stat-Predictor"
+        }
     ]
 }
