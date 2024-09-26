@@ -54,14 +54,14 @@
             "src" : "/assets/checkers.png",
             "title" : "Covey-Town Checkers Area",
             "description" : "Covey-Town interactive game checkers playing area",
-            "link" : "View in Github"
+            "link" : "https://github.com/ge-a/CheckersArea"
         },
         {
             "id" : 2, 
             "src" : "/assets/domainator.png",
             "title" : "Domainator",
             "description" : "Protein domain analysis project",
-            "link" : "View in Github"
+            "link" : "https://github.com/nebiolabs/domainator"
         },
         {
             "id" : 3, 
@@ -80,7 +80,7 @@
         {
             "id" : 5, 
             "src" : "/assets/sportsbet.png",
-            "title" : "NBA Moneyline Prediction Model",
+            "title" : "NBA Winner Predictor",
             "description" : "Predicting winners of NBA games",
             "link" : "https://github.com/ge-a/NBA-Stat-Predictor"
         }

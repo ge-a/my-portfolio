@@ -1,14 +1,13 @@
 import { Link } from "react-scroll";
 import React from "react";
-import logo from "../../assets/imstuff.jpeg";
-
+import logo from "../../assets/andygename.png";
 
 function Footer() {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img src={logo} alt="Logoipsum" />
+          <img src={logo} class="footer--logo" alt="Logoipsum" />
         </div>
         <div className="footer--items">
           <ul>
@@ -58,10 +57,10 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="Contact"
+                to="ContactMe"
                 className="text-md"
               >
-                Contact
+                Contact Me
               </Link>
             </li>
           </ul>

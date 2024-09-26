@@ -1,39 +1,36 @@
 export default function ContactMe() {
+    // vCard data for your contact
+    const vCardData = `
+BEGIN:VCARD
+VERSION:3.0
+FN:Andrew Ge
+EMAIL:andyshge@gmail.com
+TEL;TYPE=CELL:9787788908
+END:VCARD
+    `.trim();
+
+    // Create a Blob from the vCard data
+    const blob = new Blob([vCardData], { type: 'text/vcard' });
+    const vCardUrl = URL.createObjectURL(blob);
+
     return (
-        <section id="Contact" className="contact--section">
+        <section id="ContactMe" className="contact--section">
             <div className="sub--title">
-                <p className="sub--title">Get In Touch!</p>
-                <h2>Contact Me</h2>
+                <h2>Contact Me!</h2>
             </div>
-            <form className="contact--form--container">
-                <div className="container">
-                    <label htmlFor="first-name" className="contact--label">
-                        <span className="text-md">First Name</span>
-                        <input type="text" className="contact--input text-md" name="first-name" id="first-name" required/>
-                    </label>
-                    <label htmlFor="last-name" className="contact--label">
-                        <span className="text-md">Last Name</span>
-                        <input type="text" className="contact--input text-md" name="last-name" id="last-name" required/>
-                    </label>
-                    <label htmlFor="email" className="contact--label">
-                        <span className="text-md">Email</span>
-                        <input type="email" className="contact--input text-md" name="email" id="email" required/>
-                    </label>
-                    <label htmlFor="phone-number" className="contact--label">
-                        <span className="text-md">Phone Number</span>
-                        <input type="number" className="contact--input text-md" name="phone-number" id="phone-number" required/>
-                    </label>
-                </div>
-                <label htmlFor="subject" className="contact--label">
-                        <span className="text-md">Subject</span>
-                        <input type="text" className="contact--input text-md" name="Subject" id="Subject"/>
-                </label>
-                <label htmlFor="message" className="contact--label">
-                    <span className="text-md">Message</span>
-                    <textarea className="contact--input text-md" id="message" rows="8" placeholder="Type your message..."/>
-                </label>
-                <div><button className="btn btn-primary contact--form--btn">Submit</button></div>
-            </form>
+            <div className="contact-info">
+            <p style={{ fontSize: '2rem', fontWeight: 'bold' }}>
+                    <a href="mailto:andyshge@gmail.com">
+                        Email: andyshge@gmail.com
+                    </a>
+                </p>
+                <p style={{ fontSize: '2rem', fontWeight: 'bold' }}>Phone: (978)-778-8908</p>
+                <p style={{ fontSize: '2rem', fontWeight: 'bold' }}>
+                    <a href={vCardUrl} download="Andrew_Ge.vcf">
+                        Save Contact
+                    </a>
+                </p>
+            </div>
         </section>
-    )
+    );
 }

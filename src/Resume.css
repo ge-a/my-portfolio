@@ -1,0 +1,55 @@
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100vh; /* Ensure the container takes the full viewport height */
+    background-color: #f5fcff; /* Set the background color */
+}
+
+.resume-content {
+    display: flex;
+    justify-content: space-between; /* Space items to the left and right */
+    align-items: center; /* Align items vertically center */
+    margin-bottom: 20px; /* Space between the header and the iframe */
+}
+
+.resume-title {
+    margin: 0; /* Remove default margin for the h1 element */
+    font-size: 24px; /* Adjust font size for better visibility */
+}
+
+.download-link {
+    display: inline-block; /* Ensure the link behaves like a block element */
+    padding: 10px 15px; /* Add padding for better spacing */
+    background-color: white; /* Set a background color for the box */
+    border: 2px solid #007bff; /* Add a border with a specific color */
+    border-radius: 5px; /* Round the corners of the box */
+    color: #007bff; /* Set the text color */
+    text-decoration: none; /* Remove underline from link */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.download-link:hover {
+    background-color: #007bff; /* Change background on hover */
+    color: white; /* Change text color on hover */
+}
+
+.home-button {
+    padding: 15px 25px; /* Increase padding for a larger button */
+    font-size: 16px; /* Adjust font size for better visibility */
+    background-color: blue; /* Set a background color */
+    color: white; /* Set text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Round corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+.home-button:hover {
+    background-color: darkblue; /* Darken button on hover */
+}
+
+iframe {
+    border: none; /* Remove default border */
+    flex-grow: 1; /* Allow iframe to grow and fill the space */
+}

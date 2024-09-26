@@ -5,15 +5,23 @@ import MyPortfolio from  "../MyPortfolio"
 import ContactMe from  "../ContactMe"
 import Footer from "../Footer"
 
+import { Link } from 'react-router-dom';
+
+
 export default function Home() {
     return(
         <>
             <HeroSection />
             <MySkills />
-            <AboutMe />
             <MyPortfolio />
+            <AboutMe />
             <ContactMe />
             <Footer />
+            <nav>
+                <ul>
+                    <li><Link to="/resume">View My Resume</Link></li>
+                </ul>
+            </nav>
         </>
     )
 }

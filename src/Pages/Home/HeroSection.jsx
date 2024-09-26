@@ -5,19 +5,16 @@ export default function HeroSection(){
         <section id="heroSection" className="hero--section">
             <div classaName="hero--section--content--box">
                 <div className="hero--section--content">
-                    <p className="hero--section--intro">
-                        Hi, I'm Andy, a graduating Computer Science and 
-                        <br />Math student from Northeastern University!
-                    </p>
                     <h1 classNmae="hero--section--title">
-                        <span className="hero--section--title--color">I'm Seeking<br /> Opportunities</span>{" "}
+                        <span className="hero--section--title--color">Hi! I'm Andy Ge</span>{" "}
                     </h1>
                     <p className = "hero--section--description">
-                        in Software Engineering, Data Engineering, Quantitative Research
-                        <br /> for remote positions and in the Greater Boston Area!
+                        I am a graduating Computer Science and Math student based out of Boston!<br />
+                        I have a passion for analyzing data to find the patterns in everyday life.<br />
+                        I'm an avid chess player, soccer fan, and foodie. Feel free to scroll through<br />
+                        my site and learn more about me! 
                     </p>
                 </div>
-                <button className = "btn btn-primary">Contact Me!</button>
             </div>
             <div className = "hero--section--img">
                 <img src={me_pic} alt ="This is me!"/>

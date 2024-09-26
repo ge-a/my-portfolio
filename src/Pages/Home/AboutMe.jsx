@@ -8,7 +8,6 @@ export default function AboutMe() {
             </div>
             <div className="hero--section--content--box about--section--box">
                 <div className="hero--section--content">
-                    <p className="section--title">About</p>
                     <h1 className="skills-section--heading">About Me</h1>
                     <p className="hero--section--description">
                     Im a curriculum lead at FirstByte, a club at Northeastern University that promotes diversity and equity in STEM by teaching and inspiring interest 

@@ -1,23 +1,25 @@
 import logo from './logo.svg';
 import './App.css';
-import React from "react";
+import React, { useEffect } from 'react';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import NavBar from './Pages/Home/NavBar';
 import Home from "./Pages/Home/Homescreen"
+import Resume from  "./Pages/Home/Resume"
+
 
 function App() {
+    useEffect(() => {
+        document.title = "Andrew Ge - Aspiring ML Engineer";
+    }, []);
+
   return (
-    <div className="App">
       <Router>
-        <div>
-          <NavBar/>
           <Routes>
-            <Route path ="/" element={<Home />}></Route>
-            <Route path ="*" element={<div>404 Not Found</div>}></Route>
+              <Route path="/resume" element={<Resume />} /> {/* No NavBar on the Resume page */}
+              <Route path="/" element={<><NavBar /><Home /></>} /> {/* Show NavBar on Home page */}
+              {/* Add other routes here */}
           </Routes>
-        </div>
       </Router>
-    </div>
   );
 }
 
