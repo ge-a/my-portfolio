@@ -2,50 +2,59 @@
     "skills" : [
         {
             "id" : 1, 
-            "src" : "/assets/frontend.png",
-            "title" : "Front-End",
-            "description" : "I am a skilled front end developer"
+            "src" : "/assets/ml.png",
+            "title" : "Machine Learning",
+            "description" : "PyTorch Tensorflow NumPy scikit-learn"
         },
         {
             "id" : 2, 
-            "src" : "/assets/backend.png",
-            "title" : "Back-End",
-            "description" : "I am a skilled back end developer"
-        },
+            "src" : "/assets/programming_languages.png",
+            "title" : "Programming Languages",
+            "description" : "Python Java Javascript Typescript C++"
+        }, 
         {
             "id" : 3, 
-            "src" : "/assets/machine-learning.png",
-            "title" : "ML/AI",
-            "description" : "I am a skilled AI developer"
+            "src" : "/assets/cloud.png",
+            "title" : "Cloud Infrastructure",
+            "description" : "AWS Azure Docker Kubernetes Terraform"
         },
         {
-            "id" : 4, 
-            "src" : "/assets/math.png",
-            "title" : "Math",
-            "description" : "I am a skilled mathematician"
+            "id" : 4,
+            "src" : "/assets/database.png",
+            "title" : "Database Software",
+            "description" : "SQL PostgreSQL MongoDB"
         }
     ],
     "experience" : [
         {
             "id" : 1, 
-            "src" : "/assets/neb.png",
-            "company" : "New England Biolabs",
-            "title" : "Software Engineer Intern",
-            "description" : "I worked at New England Biolabs"
+            "src" : "/assets/neu.png",
+            "company" : "Northeastern University",
+            "title" : "Research Assistant at PARCS Lab"
         },
         {
             "id" : 2, 
-            "src" : "/assets/wolterskluwer.png",
-            "company" : "Wolters Kluwer",
-            "title" : "Dev-Ops Engineer Co-op",
-            "description" : "I worked at Wolters Kluwer"
+            "src" : "/assets/morganstanley.png",
+            "company" : "Morgan Stanley",
+            "title" : "Quantitative Development Co-op"
         },
         {
             "id" : 3, 
-            "src" : "/assets/morganstanley.png",
-            "company" : "Morgan Stanley",
-            "title" : "Quantitative Research Co-op",
-            "description" : "I worked at Morgan Stanley"
+            "src" : "/assets/wolterskluwer.png",
+            "company" : "Wolters Kluwer",
+            "title" : "Dev-Ops Engineer Co-op"
+        },
+        {
+            "id" : 4, 
+            "src" : "/assets/firstbyte.png",
+            "company" : "FirstByte at Northeastern University",
+            "title" : "President of FirstByte"
+        },
+        {
+            "id" : 5, 
+            "src" : "/assets/neb.png",
+            "company" : "New England Biolabs",
+            "title" : "Software Engineer Intern"
         }
     ],
     "portfolio" : [
@@ -53,7 +62,7 @@
             "id" : 1, 
             "src" : "/assets/checkers.png",
             "title" : "Covey-Town Checkers Area",
-            "description" : "Covey-Town interactive game checkers playing area",
+            "description" : "Integrated checkers playing area into virtual world Covey.Town",
             "link" : "https://github.com/ge-a/CheckersArea"
         },
         {
