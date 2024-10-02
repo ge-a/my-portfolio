@@ -10,7 +10,7 @@ export default function MySkills() {
                 {data?.skills?.map((item, index) => (
                     <div key={index} className="skills--section--card">
                         <div className="skills--section--img">
-                            <img className="skills--img" src={item.src} alt="icon" />
+                            <img className="skills--img" src={`${process.env.PUBLIC_URL}${item.src}`} alt="icon" />
                         </div>
                         <div className="skills--section--card--content">
                             <h3 className="skills--section--title">{item.title}</h3>
@@ -28,7 +28,7 @@ export default function MySkills() {
                 {data?.experience?.map((item, index) => (
                     <div key={index} className="experience--section--card">
                         <div className="experience--section--img">
-                            <img className="experience--img" src={item.src} alt="icon" />
+                            <img className="experience--img" src={`${process.env.PUBLIC_URL}${item.src}`} alt="icon" />
                         </div>
                         <div className="experience--section--card--content">
                             <h3 className="experience--section--title">{item.title}</h3>

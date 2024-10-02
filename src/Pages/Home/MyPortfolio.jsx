@@ -32,7 +32,7 @@ export default function MyPortfolio() {
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
-              <img src={item.src} alt={item.title} />
+              <img src={`${process.env.PUBLIC_URL}${item.src}`} alt={item.title} />
             </div>
             <div className="portfolio--section--card--content">
               <div>

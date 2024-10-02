@@ -21,8 +21,8 @@ export default function AboutMe() {
                     the elderly or disabled can live more independently with robot home assistants which can independently serve their needs.
                     <br /><br />
                     In my free time I enjoy watching and playing sports, cooking, and teaching computer science to students in the local Boston community through FirstByte,
-                    club at Northeastern University, where I served as President for 2 years, that promotes diversity and equity in STEM by providing equitable access to 
-                    computer science education. When I have a longer break, I love to travel, on the left here is a picture of me when I visited Malaga during my study abroad
+                    a club at Northeastern University where I served as president for 2 years, that promotes diversity and equity in STEM by providing equitable access to 
+                    computer science education. When I have a longer break, I love to travel. Here you can see a picture of me from when I visited Malaga during my study abroad
                     (if you're ever there you have to try the restaurant Casa Lola). A couple of the big items on my bucket list are to visit all the National Parks and the 
                     Seven Wonders of the Ancient World!
                     </p>
