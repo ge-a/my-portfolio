@@ -3,9 +3,9 @@ import me_pic from "../../assets/aboutme.png";
 export default function HeroSection(){
     return (
         <section id="heroSection" className="hero--section">
-            <div classaName="hero--section--content--box">
+            <div className="hero--section--content--box">
                 <div className="hero--section--content">
-                    <h1 classNmae="hero--section--title">
+                    <h1 className="hero--section--title">
                         <span className="hero--section--title--color">Hi! I'm Andy Ge</span>{" "}
                     </h1>
                     <p className = "hero--section--description">
