@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useEffect } from 'react';
-import {HashRouter as Router, Route, Routes} from "react-router-dom"
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import NavBar from './Pages/Home/NavBar';
 import Home from "./Pages/Home/Homescreen"
 import Resume from  "./Pages/Home/Resume"
